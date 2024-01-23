@@ -1,3 +1,4 @@
+
 [project]
 name = "c2-service"
 versions = "0.0.1"
@@ -6,3 +7,4 @@ dependencies = ["fastapi", "uvicorn[standard]"]
 
 [project.optional-dependencies]
 dev = ["mypy", "ruff", "pytest"]
+
